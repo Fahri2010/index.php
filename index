@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset ="UTF-8">
+	<title>Artikel komentar</title>
+</head>
+<body>  
+	<?php
+	$ql="SELECT*FROM artikel";
+	$ql=mysql=query($ql)
+    while ($res=mysql)=fatch array ($ql))  {?>
+    	<h1><a href="detail..php?detail=?php.echo $.res['id'];?"></h1>
+         <h2><?php echo substr($res['isi']'0.250'); ?></h2>
+         <h4>Read more</h4>
+     <?php } ?>
+</body>
+</html>
